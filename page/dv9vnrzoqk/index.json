@@ -1,0 +1,39 @@
+{
+  "id": "dv9vnrzoqk",
+  "name": {
+    "tr": "Teklif al",
+    "en": "Get a quote",
+    "ar": "اطلب عرض سعر"
+  },
+  "description": {
+    "tr": "Teklif formu (demo).",
+    "en": "Quote form (demo).",
+    "ar": "نموذج طلب عرض سعر (تجريبي)."
+  },
+  "keyword": {
+    "tr": "teklif",
+    "en": "quote",
+    "ar": "عرض سعر"
+  },
+  "path": "teklif-al",
+  "icon": "request_quote",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "ipbghq"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Teklif al",
+    "en": "Get a quote",
+    "ar": "اطلب عرض سعر"
+  },
+  "date": "2026-11-05T18:57:29.854Z",
+  "update": "2026-11-05T23:44:50.335Z"
+}
