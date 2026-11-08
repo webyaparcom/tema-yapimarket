@@ -1,0 +1,40 @@
+{
+  "id": "hdyj75vkja",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Raftan rafa; aletten alete.",
+    "en": "From shelf to shelf; from tool to tool.",
+    "ar": "من رف إلى رف؛ من أداة إلى أداة."
+  },
+  "keyword": {
+    "tr": "Teknik & Depo",
+    "en": "Technical & Warehouse",
+    "ar": "تقني ومستودع"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "7cn751",
+      "rdvy2b"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:57:29.833Z",
+  "update": "2026-11-05T23:44:50.319Z"
+}
