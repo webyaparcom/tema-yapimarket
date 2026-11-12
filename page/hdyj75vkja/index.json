@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Raftan rafa; aletten alete.",
-    "en": "From shelf to shelf; from tool to tool.",
-    "ar": "من رف إلى رف؛ من أداة إلى أداة."
+    "tr": "Kaba yapıdan boyaya kadar tek depo.",
+    "en": "From structural materials to paint, in one warehouse.",
+    "ar": "من مواد الهيكل إلى الدهانات في مستودع واحد."
   },
   "keyword": {
-    "tr": "Teknik & Depo",
-    "en": "Technical & Warehouse",
-    "ar": "تقني ومستودع"
+    "tr": "Yapı malzemeleri",
+    "en": "Building materials",
+    "ar": "مواد البناء"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:57:29.833Z",
-  "update": "2026-11-05T23:44:50.319Z"
+  "update": "2026-11-12T07:37:00.938Z"
 }

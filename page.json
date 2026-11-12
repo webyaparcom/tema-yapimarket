@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Raftan rafa; aletten alete.",
-        "en": "From shelf to shelf; from tool to tool.",
-        "ar": "من رف إلى رف؛ من أداة إلى أداة."
+        "tr": "Kaba yapıdan boyaya kadar tek depo.",
+        "en": "From structural materials to paint, in one warehouse.",
+        "ar": "من مواد الهيكل إلى الدهانات في مستودع واحد."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Malzeme ve ekipman; görseller temsilîdir.",
-        "en": "Materials and equipment; images are representative.",
-        "ar": "مواد ومعدات؛ الصور تمثيلية."
+        "tr": "Yapı malzemesi marketi; görseller temsilîdir.",
+        "en": "A building-materials store; images are representative.",
+        "ar": "متجر مواد بناء؛ الصور تمثيلية."
       }
     },
     {

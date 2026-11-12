@@ -1,7 +1,7 @@
 {
   "name": "Beton Market",
   "short_name": "Beton Market",
-  "description": "Malzeme ve ekipman; görseller temsilîdir.",
+  "description": "Çimento, demir, tuğla, boya ve el aletleri; şantiyeye sevkiyat. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

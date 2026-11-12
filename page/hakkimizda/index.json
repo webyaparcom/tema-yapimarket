@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Malzeme ve ekipman; görseller temsilîdir.",
-    "en": "Materials and equipment; images are representative.",
-    "ar": "مواد ومعدات؛ الصور تمثيلية."
+    "tr": "Yapı malzemesi marketi; görseller temsilîdir.",
+    "en": "A building-materials store; images are representative.",
+    "ar": "متجر مواد بناء؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:50.323Z",
+  "update": "2026-11-12T07:37:00.942Z",
   "date": "2026-10-30"
 }

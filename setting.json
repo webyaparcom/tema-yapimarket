@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Malzeme ve ekipman; görseller temsilîdir.",
-    "en": "Materials and equipment; images are representative.",
-    "ar": "مواد ومعدات؛ الصور تمثيلية."
+    "tr": "Çimento, demir, tuğla, boya ve el aletleri; şantiyeye sevkiyat. Görseller temsilîdir.",
+    "en": "Cement, rebar, bricks, paint and hand tools, delivered to site. Images are representative.",
+    "ar": "إسمنت وحديد وطوب ودهانات وأدوات يدوية مع التوصيل إلى الموقع. الصور تمثيلية."
   },
   "keyword": {
-    "tr": "beton, malzeme, inşaat",
-    "en": "concrete, material, construction",
-    "ar": "خرسانة، مواد، بناء"
+    "tr": "yapı malzemesi, çimento, demir, tuğla, boya, hırdavat",
+    "en": "building materials, cement, rebar, bricks, paint, hardware",
+    "ar": "مواد بناء، إسمنت، حديد، طوب، دهانات، أدوات"
   },
   "category": "Kurumsal",
   "name": "Beton Market",
