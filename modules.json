@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "sanayi-hero-tesis.webp",
+        "img": "insaat-hero-santiye.webp",
         "video": "",
         "poster": "",
         "alt": "Beton Market",
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "İnşaat malzemesi",
-          "en": "Building materials",
-          "ar": "مواد بناء"
+          "tr": "Yapı malzemesi marketi",
+          "en": "Building materials store",
+          "ar": "متجر مواد البناء"
         },
         "title": {
-          "tr": "Sahanın, malzemesi",
-          "en": "Your site, supplied",
-          "ar": "موقعك، مزود بالمعدات"
+          "tr": "Şantiyeniz malzemesiz kalmasın",
+          "en": "Keep your site supplied",
+          "ar": "لا يتوقف موقعك عن العمل"
         },
         "metin": {
-          "tr": "Beton Market, malzeme ve ekipman sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Beton supplies materials and equipment. Images are representative and text is fictional.",
-          "ar": "يقدم بيتون مواد ومعدات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Beton Market; çimento, demir, tuğla, boya ve el aletlerini tek depodan sunan kurgusal bir yapı malzemesi marketi demosudur. Listenizi gönderin, teklif alın.",
+          "en": "Beton Market is a fictional building-materials store demo offering cement, rebar, bricks, paint and hand tools from one warehouse. Send your list and get a quote.",
+          "ar": "بيتون ماركت عرض تجريبي افتراضي لمتجر مواد بناء يوفر الإسمنت والحديد والطوب والدهانات والأدوات اليدوية من مستودع واحد. أرسل قائمتك واحصل على عرض سعر."
         },
         "cta1": {
-          "tr": "Malzeme listesi",
-          "en": "Materials list",
-          "ar": "قائمة مواد"
+          "tr": "Malzemeler",
+          "en": "Materials",
+          "ar": "المواد"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Fiyat iste",
-          "en": "Request price",
-          "ar": "اطلب سعر"
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne satılır, ne yapılır?",
-          "en": "What is sold, what is done?",
-          "ar": "ما الذي يُباع وما الذي يُنجز؟"
+          "tr": "Marketimiz rakamlarla",
+          "en": "Our store in numbers",
+          "ar": "متجرنا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1613,13 +1624,13 @@
       },
       "data": [
         {
-          "deger": 200,
+          "deger": 5000,
           "sonek": "",
-          "ikon": "build",
+          "ikon": "warehouse",
           "etiket": {
-            "tr": "M2 depo",
-            "en": "M2 warehouse",
-            "ar": "مستودع م٢"
+            "tr": "m² depo alanı",
+            "en": "m² of warehouse",
+            "ar": "م² مساحة مستودع"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,28 +1639,13 @@
           }
         },
         {
-          "deger": 15,
+          "deger": 1200,
           "sonek": "",
-          "ikon": "precision_manufacturing",
+          "ikon": "inventory_2",
           "etiket": {
-            "tr": "Makine tipi",
-            "en": "Machine types",
-            "ar": "أنواع الآلات"
-          },
-          "aciklama": {
-            "tr": "Kurgusal demo değeri",
-            "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
-          }
-        },
-        {
-          "deger": 99,
-          "sonek": "%",
-          "ikon": "verified",
-          "etiket": {
-            "tr": "Denetim geçişi",
-            "en": "Inspection pass",
-            "ar": "نسبة الفحص"
+            "tr": "Stoklu kalem",
+            "en": "Stocked items",
+            "ar": "صنف في المخزون"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1660,11 +1656,26 @@
         {
           "deger": 8,
           "sonek": "",
-          "ikon": "groups",
+          "ikon": "local_shipping",
           "etiket": {
-            "tr": "Saha ekibi",
-            "en": "Field team",
-            "ar": "طاقم ميداني"
+            "tr": "Sevkiyat aracı",
+            "en": "Delivery vehicles",
+            "ar": "مركبة توصيل"
+          },
+          "aciklama": {
+            "tr": "Kurgusal demo değeri",
+            "en": "Fictional demo figure",
+            "ar": "قيمة تجريبية"
+          }
+        },
+        {
+          "deger": 6,
+          "sonek": "",
+          "ikon": "schedule",
+          "etiket": {
+            "tr": "Gün açık (haftada)",
+            "en": "Days open a week",
+            "ar": "أيام العمل أسبوعيًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Teknik & Depo",
-          "en": "Technical & Warehouse",
-          "ar": "تقني ومستودع"
+          "tr": "Yapı malzemeleri",
+          "en": "Building materials",
+          "ar": "مواد البناء"
         },
         "title": {
-          "tr": "Ne satılır, ne yapılır?",
-          "en": "What is sold, what is done?",
-          "ar": "ما الذي يُباع وما الذي يُنجز؟"
+          "tr": "Hangi malzemeleri tutuyoruz?",
+          "en": "What do we stock?",
+          "ar": "ما المواد التي نوفرها؟"
         },
         "description": {
-          "tr": "Raftan rafa; aletten alete.",
-          "en": "From shelf to shelf; from tool to tool.",
-          "ar": "من رف إلى رف؛ من أداة إلى أداة."
+          "tr": "Kaba yapıdan boyaya kadar tek depo.",
+          "en": "From structural materials to paint, in one warehouse.",
+          "ar": "من مواد الهيكل إلى الدهانات في مستودع واحد."
         }
       },
       "data": [
         {
-          "icon": "precision_manufacturing",
+          "icon": "construction",
           "name": {
-            "tr": "Makine bakımı",
-            "en": "Machine service",
-            "ar": "صيانة الآلات"
+            "tr": "Çimento ve harç",
+            "en": "Cement and mortar",
+            "ar": "الإسمنت والملاط"
           },
           "description": {
-            "tr": "Periyodik bakım ve yağlama.",
-            "en": "Periodic maintenance and lubrication.",
-            "ar": "صيانة دورية وتزييت."
+            "tr": "Çimento, hazır harç, kum ve çakıl; torba ve palet.",
+            "en": "Cement, ready mortar, sand and gravel; bags and pallets.",
+            "ar": "إسمنت وملاط جاهز ورمل وحصى؛ أكياس وطبليات."
           }
         },
         {
-          "icon": "electric_bolt",
+          "icon": "hardware",
           "name": {
-            "tr": "Enerji panosu",
-            "en": "Energy board",
-            "ar": "لوحة الطاقة"
+            "tr": "Demir ve profil",
+            "en": "Rebar and profiles",
+            "ar": "الحديد والبروفيلات"
           },
           "description": {
-            "tr": "Pano, kablo ve ölçüm.",
-            "en": "Panel, cable and measurement.",
-            "ar": "لوح وكابل وقياس."
+            "tr": "İnşaat demiri, hasır, profil ve bağ teli.",
+            "en": "Rebar, mesh, profiles and tie wire.",
+            "ar": "حديد تسليح وشبك وبروفيلات وسلك ربط."
           }
         },
         {
-          "icon": "build",
+          "icon": "view_module",
           "name": {
-            "tr": "Yapı malzemesi",
-            "en": "Building material",
-            "ar": "مواد البناء"
+            "tr": "Tuğla, briket ve yalıtım",
+            "en": "Bricks, blocks and insulation",
+            "ar": "الطوب والبلوك والعزل"
           },
           "description": {
-            "tr": "Araç ve iş makinesi malzemesi.",
-            "en": "Equipment and construction material.",
-            "ar": "معدات ومواد البناء."
+            "tr": "Duvar malzemeleri ile ısı ve su yalıtım ürünleri.",
+            "en": "Wall materials plus thermal and waterproofing products.",
+            "ar": "مواد الجدران ومنتجات العزل الحراري والمائي."
           }
         },
         {
-          "icon": "engineering",
+          "icon": "format_paint",
           "name": {
-            "tr": "Teknik çizim",
-            "en": "Technical drawing",
-            "ar": "رسم تقني"
+            "tr": "Boya ve alçı",
+            "en": "Paint and plaster",
+            "ar": "الدهانات والجبس"
           },
           "description": {
-            "tr": "Teknik çizim ve keşif.",
-            "en": "Technical drawing and survey.",
-            "ar": "رسم تقني ومسح."
+            "tr": "İç ve dış cephe boyası, alçı ve macun.",
+            "en": "Interior and exterior paint, plaster and filler.",
+            "ar": "دهانات داخلية وخارجية وجبس ومعجون."
+          }
+        },
+        {
+          "icon": "handyman",
+          "name": {
+            "tr": "El aletleri ve hırdavat",
+            "en": "Hand tools and hardware",
+            "ar": "الأدوات اليدوية والخردوات"
+          },
+          "description": {
+            "tr": "Matkap uçları, vida, dübel ve el aletleri.",
+            "en": "Drill bits, screws, anchors and hand tools.",
+            "ar": "رؤوس مثاقب وبراغي ومسامير تثبيت وأدوات يدوية."
           }
         },
         {
           "icon": "local_shipping",
           "name": {
-            "tr": "Depo ve sevkiyat",
-            "en": "Warehouse and shipping",
-            "ar": "مستودع وشحن"
+            "tr": "Şantiyeye sevkiyat",
+            "en": "Delivery to site",
+            "ar": "التوصيل إلى الموقع"
           },
           "description": {
-            "tr": "Depo düzeni ve sevk planı.",
-            "en": "Warehouse organization and dispatch plan.",
-            "ar": "تنظيم المستودع وخطة الإرسال."
-          }
-        },
-        {
-          "icon": "security",
-          "name": {
-            "tr": "İş güvenliği",
-            "en": "Work safety",
-            "ar": "سلامة العمل"
-          },
-          "description": {
-            "tr": "Koruyucu ekipman ve kontrol.",
-            "en": "Protective equipment and inspection.",
-            "ar": "معدات وقاية وتحقق."
+            "tr": "Adres ve araç erişimine göre planlı teslim.",
+            "en": "Planned delivery based on address and vehicle access.",
+            "ar": "تسليم مخطط حسب العنوان وإمكانية وصول المركبة."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Sipariş akışı",
+          "en": "Order flow",
+          "ar": "مسار الطلب"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda sevkiyat",
+          "en": "Delivery in four steps",
+          "ar": "التوصيل في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Malzeme listesinden şantiyeye.",
+          "en": "From the material list to your site.",
+          "ar": "من قائمة المواد إلى موقعك."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,14 +1847,14 @@
         {
           "year": "01",
           "title": {
-            "tr": "Keşif",
-            "en": "Survey",
-            "ar": "المسح"
+            "tr": "Malzeme listesi",
+            "en": "Material list",
+            "ar": "قائمة المواد"
           },
           "text": {
-            "tr": "Saha ölçümü ve kayıt.",
-            "en": "Site measurement and record.",
-            "ar": "قياس الموقع والتسجيل."
+            "tr": "Metraj ya da ihtiyaç listenizi paylaşın.",
+            "en": "Share your quantities or needs list.",
+            "ar": "شارك الكميات أو قائمة احتياجاتك."
           }
         },
         {
@@ -1851,38 +1862,38 @@
           "title": {
             "tr": "Teklif",
             "en": "Quote",
-            "ar": "العرض"
+            "ar": "عرض السعر"
           },
           "text": {
-            "tr": "Malzeme ve iş listesi.",
-            "en": "Material and work list.",
-            "ar": "قائمة المواد والأعمال."
+            "tr": "Birim fiyat ve toplam teklif iletilir.",
+            "en": "Unit prices and a total quote are sent.",
+            "ar": "يُرسل سعر الوحدة وعرض السعر الإجمالي."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Montaj",
-            "en": "Assembly",
-            "ar": "التجميع"
+            "tr": "Hazırlık",
+            "en": "Preparation",
+            "ar": "التجهيز"
           },
           "text": {
-            "tr": "Kurulum ve ayar.",
-            "en": "Assembly and adjustment.",
-            "ar": "تركيب وضبط."
+            "tr": "Malzeme depoda ayrılır, palete alınır.",
+            "en": "Materials are picked and palletised in the warehouse.",
+            "ar": "تُجهَّز المواد في المستودع وتُوضع على الطبليات."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Denetim",
-            "en": "Inspection",
-            "ar": "الفحص"
+            "tr": "Sevkiyat",
+            "en": "Delivery",
+            "ar": "التوصيل"
           },
           "text": {
-            "tr": "Test ve devir.",
-            "en": "Test and handover.",
-            "ar": "اختبار وتسليم."
+            "tr": "Şantiyeye teslim ya da depodan alım.",
+            "en": "Delivery to site or pick-up from the warehouse.",
+            "ar": "توصيل إلى الموقع أو استلام من المستودع."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Market ekibi",
+          "en": "Store team",
+          "ar": "فريق المتجر"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizi karşılayanlar",
+          "en": "Who you will meet",
+          "ar": "من ستقابلهم"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Kadir E.",
           "role": {
-            "tr": "Makine ustası",
-            "en": "Master fitter",
-            "ar": "فني آليات"
+            "tr": "Satış danışmanı",
+            "en": "Sales advisor",
+            "ar": "مستشار مبيعات"
           },
           "bio": {
-            "tr": "14 yıl montaj.",
-            "en": "14 years of assembly.",
-            "ar": "١٤ عامًا في التركيب."
+            "tr": "Malzeme seçimi ve metrajda 11 yıl.",
+            "en": "11 years in material selection and quantity takeoff.",
+            "ar": "11 عامًا في اختيار المواد وحساب الكميات."
           },
           "img": ""
         },
         {
           "name": "Selim O.",
           "role": {
-            "tr": "Elektrikçi",
-            "en": "Electrician",
-            "ar": "كهربائي"
+            "tr": "Depo sorumlusu",
+            "en": "Warehouse lead",
+            "ar": "مسؤول المستودع"
           },
           "bio": {
-            "tr": "10 yıl pano.",
-            "en": "10 years of panels.",
-            "ar": "١٠ سنوات في الألواح."
+            "tr": "Stok ve palet düzeninde 8 yıl.",
+            "en": "8 years in stock and pallet management.",
+            "ar": "8 سنوات في إدارة المخزون والطبليات."
           },
           "img": ""
         },
         {
           "name": "Hüseyin R.",
           "role": {
-            "tr": "Depo",
-            "en": "Warehouse lead",
-            "ar": "مستودع"
+            "tr": "Sevkiyat sorumlusu",
+            "en": "Dispatch lead",
+            "ar": "مسؤول التوصيل"
           },
           "bio": {
-            "tr": "6 yıl sevk.",
-            "en": "6 years of dispatch.",
-            "ar": "٦ سنوات في الإرسال."
+            "tr": "Şantiye sevkiyat planında 6 yıl.",
+            "en": "6 years in site delivery planning.",
+            "ar": "6 سنوات في تخطيط التوصيل إلى المواقع."
           },
           "img": ""
         }
@@ -2019,46 +2030,46 @@
         {
           "name": "A. Demir.",
           "role": {
-            "tr": "Firma sahibi",
-            "en": "Business owner",
-            "ar": "صاحب شركة"
+            "tr": "Müteahhit",
+            "en": "Contractor",
+            "ar": "مقاول"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Fatura doğru; malzeme etiketli.",
-            "en": "Invoice correct; material labeled.",
-            "ar": "الفاتورة صحيحة؛ المواد موسومة."
+            "tr": "Listeyi verdim, aynı gün teklif geldi, ertesi gün şantiyeye sevkiyat yapıldı.",
+            "en": "I sent my list, got a quote the same day and delivery to site the next day.",
+            "ar": "أرسلت القائمة فوصلني العرض في اليوم نفسه والتوصيل إلى الموقع في اليوم التالي."
           }
         },
         {
           "name": "Mustafa G.",
           "role": {
-            "tr": "İşletme",
-            "en": "Business client",
-            "ar": "إدارة"
+            "tr": "Usta",
+            "en": "Tradesman",
+            "ar": "معلّم بناء"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Montaj süresi plana uygun.",
-            "en": "Assembly time is as planned.",
-            "ar": "زمن التركيب يتناسب مع الخطة."
+            "tr": "Stok durumu net söylendi; yanlış ürün çıkmadı.",
+            "en": "Stock was stated clearly and I received the right products.",
+            "ar": "أُخبرت بحالة المخزون بوضوح ولم أستلم منتجًا خاطئًا."
           }
         },
         {
           "name": "T. Kılıç.",
           "role": {
-            "tr": "Alıcı",
-            "en": "Buyer",
-            "ar": "مشترى"
+            "tr": "Bireysel müşteri",
+            "en": "Individual customer",
+            "ar": "عميل فردي"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Depodan teslim net.",
-            "en": "Delivery from warehouse is clear.",
-            "ar": "التسليم من المستودع واضح."
+            "tr": "Ev tadilatı için küçük miktarda da sipariş verebildim.",
+            "en": "I could order small quantities for a home renovation.",
+            "ar": "استطعت طلب كميات صغيرة لترميم منزلي."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "2px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Depodan",
+          "en": "From the warehouse",
+          "ar": "من المستودع"
         },
         "title": {
-          "tr": "Ne satılır, ne yapılır?",
-          "en": "What is sold, what is done?",
-          "ar": "ما الذي يُباع وما الذي يُنجز؟"
+          "tr": "Depo, sevkiyat ve metraj",
+          "en": "Warehouse, delivery and takeoff",
+          "ar": "المستودع والتوصيل وحساب الكميات"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusal bir demodur.",
+          "en": "Images are representative; the content is a fictional demo.",
+          "ar": "الصور تمثيلية والمحتوى عرض تجريبي افتراضي."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Makine bakımı",
-            "en": "Machine service",
-            "ar": "صيانة الآلات"
+            "tr": "Çimento ve harç",
+            "en": "Cement and mortar",
+            "ar": "الإسمنت والملاط"
           },
           "metin": {
-            "tr": "Periyodik bakım ve yağlama.",
-            "en": "Periodic maintenance and lubrication.",
-            "ar": "صيانة دورية وتزييت."
+            "tr": "Çimento, hazır harç, kum ve çakıl; torba ve palet.",
+            "en": "Cement, ready mortar, sand and gravel; bags and pallets.",
+            "ar": "إسمنت وملاط جاهز ورمل وحصى؛ أكياس وطبليات."
           },
           "img": "sanayi-depo.webp",
           "alt": {
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Enerji panosu",
-            "en": "Energy board",
-            "ar": "لوحة الطاقة"
+            "tr": "Demir ve profil",
+            "en": "Rebar and profiles",
+            "ar": "الحديد والبروفيلات"
           },
           "metin": {
-            "tr": "Pano, kablo ve ölçüm.",
-            "en": "Panel, cable and measurement.",
-            "ar": "لوح وكابل وقياس."
+            "tr": "İnşaat demiri, hasır, profil ve bağ teli.",
+            "en": "Rebar, mesh, profiles and tie wire.",
+            "ar": "حديد تسليح وشبك وبروفيلات وسلك ربط."
           },
-          "img": "sanayi-makine-2.webp",
+          "img": "lojistik-kamyonet.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Yapı malzemesi",
-            "en": "Building material",
-            "ar": "مواد البناء"
+            "tr": "Tuğla, briket ve yalıtım",
+            "en": "Bricks, blocks and insulation",
+            "ar": "الطوب والبلوك والعزل"
           },
           "metin": {
-            "tr": "Araç ve iş makinesi malzemesi.",
-            "en": "Equipment and construction material.",
-            "ar": "معدات ومواد البناء."
+            "tr": "Duvar malzemeleri ile ısı ve su yalıtım ürünleri.",
+            "en": "Wall materials plus thermal and waterproofing products.",
+            "ar": "مواد الجدران ومنتجات العزل الحراري والمائي."
           },
-          "img": "sanayi-belge-2.webp",
+          "img": "insaat-kat-plani.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "2px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte çalıştığımız firmalar",
+          "en": "Firms we work with",
+          "ar": "شركات نعمل معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal firma adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional firm names; they do not belong to a real organisation.",
+          "ar": "أسماء شركات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Depo"
+          "name": "Demo İnşaat"
         },
         {
-          "name": "Demo Alet"
+          "name": "Demo Mimarlık"
         },
         {
-          "name": "Demo Atölye"
+          "name": "Demo Tadilat"
         },
         {
-          "name": "Demo Malzeme"
+          "name": "Demo Müteahhitlik"
         },
         {
-          "name": "Demo Forklift"
+          "name": "Demo Mobilya Atölyesi"
         },
         {
-          "name": "Demo İş Güvenliği"
+          "name": "Demo Yapı Kooperatifi"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Şantiyeye teslim yapıyor musunuz?",
+            "en": "Do you deliver to site?",
+            "ar": "هل توصّلون إلى الموقع؟"
+          },
+          "answer": {
+            "tr": "Evet; adres ve araç erişimine göre sevkiyat planlanır (demo metin).",
+            "en": "Yes; delivery is planned by address and vehicle access (demo text).",
+            "ar": "نعم؛ يُخطَّط التوصيل حسب العنوان وإمكانية وصول المركبة (نص تجريبي)."
+          },
           "soru": {
-            "tr": "Garanti süresi ne kadar?",
-            "en": "How long is the warranty?",
-            "ar": "ما مدة الضمان?"
+            "tr": "Şantiyeye teslim yapıyor musunuz?",
+            "en": "Do you deliver to site?",
+            "ar": "هل توصّلون إلى الموقع؟"
           },
           "cevap": {
-            "tr": "İş kalemine göre değişir; demo metni örnek vermez.",
-            "en": "It varies by work item; this demo text gives no example.",
-            "ar": "تتغير حسب بند العمل؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Evet; adres ve araç erişimine göre sevkiyat planlanır (demo metin).",
+            "en": "Yes; delivery is planned by address and vehicle access (demo text).",
+            "ar": "نعم؛ يُخطَّط التوصيل حسب العنوان وإمكانية وصول المركبة (نص تجريبي)."
           }
         },
         {
+          "question": {
+            "tr": "Küçük miktar satıyor musunuz?",
+            "en": "Do you sell small quantities?",
+            "ar": "هل تبيعون كميات صغيرة؟"
+          },
+          "answer": {
+            "tr": "Evet; torba ve adet bazında perakende satış da yapılır (demo metin).",
+            "en": "Yes; retail sales by bag or piece are available too (demo text).",
+            "ar": "نعم؛ تتوفر مبيعات التجزئة بالكيس أو بالقطعة أيضًا (نص تجريبي)."
+          },
           "soru": {
-            "tr": "Sevkiyat hangi günler?",
-            "en": "Which days are deliveries?",
-            "ar": "أيام الشحن?"
+            "tr": "Küçük miktar satıyor musunuz?",
+            "en": "Do you sell small quantities?",
+            "ar": "هل تبيعون كميات صغيرة؟"
           },
           "cevap": {
-            "tr": "Hafta içi sabah; saat 09:00 sonrası (demo).",
-            "en": "Weekday mornings; after 09:00 (demo).",
-            "ar": "أصباح أيام العمل؛ بعد ٩ ص (تجريبي)."
+            "tr": "Evet; torba ve adet bazında perakende satış da yapılır (demo metin).",
+            "en": "Yes; retail sales by bag or piece are available too (demo text).",
+            "ar": "نعم؛ تتوفر مبيعات التجزئة بالكيس أو بالقطعة أيضًا (نص تجريبي)."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Malzemeye, miktara ve sevkiyat mesafesine göre teklifle belirlenir; genel bir fiyat aralığı bu demoda yer almaz.",
+            "en": "Prices are quoted by material, quantity and delivery distance; no general range is shown in this demo.",
+            "ar": "تُحدَّد الأسعار بعرض حسب المادة والكمية ومسافة التوصيل؛ ولا يُذكر نطاق عام في هذا العرض."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Malzemeye, miktara ve sevkiyat mesafesine göre teklifle belirlenir; genel bir fiyat aralığı bu demoda yer almaz.",
+            "en": "Prices are quoted by material, quantity and delivery distance; no general range is shown in this demo.",
+            "ar": "تُحدَّد الأسعار بعرض حسب المادة والكمية ومسافة التوصيل؛ ولا يُذكر نطاق عام في هذا العرض."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "2px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Malzeme teklifi isteyin",
+          "en": "Request a materials quote",
+          "ar": "اطلب عرض سعر للمواد"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Malzeme listenizi yazın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "List the materials you need; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب قائمة المواد المطلوبة؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Beton Market",
@@ -2421,9 +2472,9 @@
           "ar": "Beton Market"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusaldır.",
+          "en": "Images are representative; the content is fictional.",
+          "ar": "الصور تمثيلية والمحتوى افتراضي."
         },
         "address": {
           "tr": "Beton Sokak No: 44, Şahinbey, Gaziantep (kurgusal adres)",
@@ -2479,7 +2530,7 @@
         "formTitle": {
           "tr": "Teklif formu",
           "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "ar": "نموذج طلب العرض"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Malzeme teklifi",
+              "en": "Materials quote",
+              "ar": "عرض سعر مواد"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Toplu sipariş",
+              "en": "Bulk order",
+              "ar": "طلب بالجملة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Sevkiyat sorusu",
+              "en": "Delivery question",
+              "ar": "سؤال عن التوصيل"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Beton Market"
         },
         "description": {
-          "tr": "Beton Market, malzeme ve ekipman sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Beton supplies materials and equipment. Images are representative and text is fictional.",
-          "ar": "يقدم بيتون مواد ومعدات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Beton Market; çimento, demir, tuğla, boya ve hırdavatı tek depoda toplayan, şantiyeye sevkiyat yapan kurgusal bir yapı malzemesi marketidir. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Beton Market is a fictional building-materials store that keeps cement, rebar, bricks, paint and hardware in one warehouse and delivers to site. Images are representative and text is fictional.",
+          "ar": "بيتون ماركت متجر مواد بناء افتراضي يجمع الإسمنت والحديد والطوب والدهانات والخردوات في مستودع واحد ويوصّل إلى المواقع. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Depo",
-          "en": "Warehouse",
-          "ar": "المستودع"
+          "tr": "Geniş depo",
+          "en": "Large warehouse",
+          "ar": "مستودع واسع"
         },
         "spot2": {
-          "tr": "Malzeme rafa kodlu; barkodla sevk.",
-          "en": "Material coded to the shelf; shipped by barcode.",
-          "ar": "المواد موسومة على الرف؛ تُشحن بالباركود."
+          "tr": "Palet raflı ve forkliftli depo düzeni.",
+          "en": "A pallet-racked warehouse with forklift access.",
+          "ar": "مستودع برفوف طبليات ورافعة شوكية."
         },
-        "icon2": "verified",
+        "icon2": "warehouse",
         "name3": {
-          "tr": "Atölye",
-          "en": "Workshop",
-          "ar": "ورشة"
+          "tr": "Sevkiyat",
+          "en": "Delivery",
+          "ar": "التوصيل"
         },
         "spot3": {
-          "tr": "Makine bakımında kayıt ve alet kontrolü.",
-          "en": "A record and tool inspection during machine maintenance.",
-          "ar": "تسجيل وتحقق الأدوات خلال صيانة الآلة."
+          "tr": "Şantiyeye araçla planlı teslim.",
+          "en": "Planned vehicle delivery to site.",
+          "ar": "تسليم مخطط بالمركبة إلى الموقع."
         },
-        "icon3": "schedule",
-        "img": "sanayi-uretim-hatti.webp",
+        "icon3": "local_shipping",
+        "img": "sanayi-ekip-saha.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 07:30 – 19:00",
+          "en": "Mon–Sat 07:30 – 19:00",
+          "ar": "الاثنين–السبت 07:30 – 19:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "2px",
         "title": {
-          "tr": "Saha boş kalmadan",
-          "en": "Before the site is left empty",
-          "ar": "قبل أن يفرغ الموقع"
+          "tr": "Malzeme listenizi gönderin",
+          "en": "Send us your material list",
+          "ar": "أرسل قائمة موادك"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Teklif için iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "We reply with a quote within two business days. No data is stored on this demo site.",
+          "ar": "نردّ بعرض سعر خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Malzemeleri gör",
+          "en": "See materials",
+          "ar": "شاهد المواد"
         },
         "btn2Url": "hizmetler",
         "number": "903420260102",
