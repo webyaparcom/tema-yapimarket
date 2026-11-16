@@ -1,164 +1,38 @@
-<section class="modulex-team">
-  <div class="modulex-team-container">
-    <div class="modulex-team-header">
-      <div class="modulex-team-badge">{{badge}}</div>
-      <h2 class="modulex-team-title">{{title}}</h2>
-      <p class="modulex-team-desc">{{description}}</p>
-    </div>
-    <div class="modulex-team-grid">
-      {{html}}
-    </div>
+<section class="modulex-tm3" {{tm3label}}>
+  <div class="modulex-tm3__wrap">
+    {{tm3head}}
+    <ul class="modulex-tm3__list" aria-label="{{tm3listelabel}}">{{tm3rows}}</ul>
   </div>
 </section>
 
 <style>
-  .modulex-team {
-    width: 100%;
-    padding: 80px 20px;
-    background: --bgcolor--;
-    box-sizing: border-box;
+  /* team-3 — ekip liste satırları (1 Kas 2026). Renkler yalnız var(--mx-site-*) token'ları. */
+  .modulex-tm3 { box-sizing: border-box; width: 100%; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 32px); background: var(--mx-site-bg, #ffffff); color: var(--mx-site-text, #1b1b1b); }
+  .modulex-tm3 *, .modulex-tm3 *::before, .modulex-tm3 *::after { box-sizing: border-box; }
+  .modulex-tm3__wrap { max-width: --max--; margin-inline: auto; }
+  .modulex-tm3__head { max-width: 760px; margin-block-end: clamp(24px, 4vw, 40px); }
+  .modulex-tm3__eyebrow { margin: 0 0 8px; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mx-site-primary, #2563eb); }
+  .modulex-tm3__h2 { margin: 0 0 10px; font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.25rem); line-height: 1.2; color: var(--mx-site-text, #1b1b1b); }
+  .modulex-tm3__desc { margin: 0; font-size: 1rem; line-height: 1.65; color: color-mix(in srgb, var(--mx-site-text, #1b1b1b) 74%, transparent); }
+  .modulex-tm3__list { list-style: none; margin: 0; padding: 0; border-block-start: 1px solid color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent); }
+  .modulex-tm3__row { display: grid; grid-template-columns: 72px minmax(0, 3fr) minmax(0, 5fr) auto; gap: 8px 24px; align-items: center; padding: 20px 4px; border-block-end: 1px solid color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent); transition: background-color 0.2s ease; }
+  .modulex-tm3__row:hover { background: color-mix(in srgb, var(--mx-site-surface, #f6f7f9) 70%, transparent); }
+  .modulex-tm3__av { width: 64px; height: 64px; border-radius: 50%; overflow: hidden; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.1rem; letter-spacing: 0.02em; background: color-mix(in srgb, var(--mx-site-primary, #2563eb) 14%, var(--mx-site-bg, #ffffff)); color: var(--mx-site-text, #1b1b1b); }
+  .modulex-tm3__av img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .modulex-tm3__name { margin: 0; font-size: 1.1rem; line-height: 1.3; }
+  .modulex-tm3__role { margin: 2px 0 0; font-size: 0.9rem; font-weight: 600; color: var(--mx-site-primary, #2563eb); }
+  .modulex-tm3__bio { margin: 0; font-size: 0.95rem; line-height: 1.6; color: color-mix(in srgb, var(--mx-site-text, #1b1b1b) 76%, transparent); }
+  .modulex-tm3__links { display: flex; gap: 8px; }
+  .modulex-tm3__link { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; text-decoration: none; border: 1px solid color-mix(in srgb, var(--mx-site-text, #1b1b1b) 20%, transparent); color: var(--mx-site-text, #1b1b1b); transition: background-color 0.2s ease; }
+  .modulex-tm3__link:hover { background: color-mix(in srgb, var(--mx-site-primary, #2563eb) 12%, transparent); }
+  .modulex-tm3__link:focus-visible { outline: 3px solid var(--mx-site-primary, #2563eb); outline-offset: 2px; }
+  .modulex-tm3__link .material-symbols-outlined { font-size: 20px; }
+  @media (max-width: 760px) {
+    .modulex-tm3__row { grid-template-columns: 56px minmax(0, 1fr); align-items: start; }
+    .modulex-tm3__av { width: 56px; height: 56px; }
+    .modulex-tm3__bio, .modulex-tm3__links { grid-column: 2; }
   }
-
-  .modulex-team-container {
-    max-width: --max--;
-    margin: 0 auto;
-  }
-
-  .modulex-team-header {
-    text-align: center;
-    margin-bottom: 48px;
-  }
-
-  .modulex-team-badge {
-    display: inline-block;
-    padding: 6px 18px;
-    background: --accent--;
-    color: --accentText--; /* 31 Eki: sabit beyaz → token */
-    border-radius: 50px;
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 16px;
-  }
-
-  .modulex-team-title {
-    font-size: 36px;
-    font-weight: 800;
-    color: --titlecolor--;
-    margin: 0 0 12px;
-  }
-
-  .modulex-team-desc {
-    font-size: 16px;
-    color: --textcolor--;
-    max-width: 640px;
-    margin: 0 auto;
-    line-height: 1.7;
-  }
-
-  .modulex-team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 24px;
-  }
-
-  .modulex-team-card {
-    background: --cardbg--;
-    border: 1px solid --bordercolor--;
-    border-radius: 16px;
-    padding: 28px 20px;
-    text-align: center;
-    box-sizing: border-box;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    animation: modulexTeamIn 0.5s ease both;
-  }
-
-  .modulex-team-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.1);
-  }
-
-  .modulex-team-avatar {
-    width: 108px;
-    height: 108px;
-    margin: 0 auto 16px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 3px solid --accent--;
-    background: --bordercolor--;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .modulex-team-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-
-  .modulex-team-avatar .material-symbols-outlined {
-    font-size: 52px;
-    color: --textcolor--;
-  }
-
-  .modulex-team-name {
-    font-size: 17px;
-    font-weight: 700;
-    color: --titlecolor--;
-    margin: 0 0 4px;
-  }
-
-  .modulex-team-role {
-    font-size: 13px;
-    font-weight: 600;
-    color: --accent--;
-    margin: 0 0 10px;
-  }
-
-  .modulex-team-bio {
-    font-size: 13px;
-    line-height: 1.6;
-    color: --textcolor--;
-    margin: 0;
-  }
-
-  @keyframes modulexTeamIn {
-    from {
-      opacity: 0;
-      transform: translateY(16px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .modulex-team {
-      padding: 48px 14px;
-    }
-
-    .modulex-team-title {
-      font-size: 26px;
-    }
-
-    .modulex-team-grid {
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 16px;
-    }
-
-    [class*="modulex"] {
-      max-width: 100%;
-      box-sizing: border-box;
-    }
-  }
-
   @media (prefers-reduced-motion: reduce) {
-    [class*="modulex"],
-    [class*="modulex"] * {
-      animation: none !important;
-      transition: none !important;
-    }
+    .modulex-tm3 * { transition: none !important; animation: none !important; }
   }
 </style>

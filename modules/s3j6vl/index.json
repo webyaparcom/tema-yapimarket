@@ -1,72 +1,124 @@
 {
-  "name": "Ekip 1",
-  "desing": {
-    "max": "1200px",
-    "bgcolor": "#ffffff",
-    "cardbg": "#f8fafc",
-    "bordercolor": "#e2e8f0",
-    "titlecolor": "#1e293b",
-    "textcolor": "#475569",
-    "accent": "#DE6D26",
-    "badge": {
-      "tr": "Ekibimiz",
-      "en": "Our Team"
-    },
-    "title": {
-      "tr": "Uzman Kadromuzla Tanışın",
-      "en": "Meet Our Experts"
-    },
-    "description": {
-      "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
-      "en": "Our experienced team is here to add value to your projects."
-    },
-    "accentText": "#ffffff"
+  "name": {
+    "tr": "Ekip 3 — Liste satırları",
+    "en": "Team 3 — List rows"
   },
-  "data": [
-    {
-      "name": "Ad Soyad",
-      "role": {
-        "tr": "Kurucu / CEO",
-        "en": "Founder / CEO"
-      },
-      "bio": {
-        "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
-        "en": "Strategy and management with 10+ years of industry experience."
-      },
-      "img": ""
-    },
-    {
-      "name": "Ad Soyad",
-      "role": {
-        "tr": "Tasarım Direktörü",
-        "en": "Design Director"
-      },
-      "bio": {
-        "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
-        "en": "Brand identity and user experience design."
-      },
-      "img": ""
-    },
-    {
-      "name": "Ad Soyad",
-      "role": {
-        "tr": "Yazılım Geliştirici",
-        "en": "Software Developer"
-      },
-      "bio": {
-        "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
-        "en": "Scalable solutions with modern web technologies."
-      },
-      "img": ""
-    }
-  ],
+  "description": {
+    "tr": "Rehber tarzı ekip listesi: her kişi bir satır — küçük yuvarlak fotoğraf (yoksa baş harfler), ad, unvan, kısa tanıtım ve e-posta/profil bağlantıları. İnce ayraçlı satırlar; dar ekranda yığılır.",
+    "en": "Directory-style team list: one row per person — small round photo (initials fallback), name, role, short bio and email/profile links. Hairline-divided rows; stacks on narrow screens."
+  },
+  "path": "team-3",
   "category": "team",
-  "description": "Ekip üyeleri modülü. Fotoğraf, isim, unvan ve kısa biyografiyi responsive kart grid'inde gösterir. Fotoğraf yoksa ikon fallback, çok dilli unvan/biyografi ve animasyonlu giriş içerir.",
+  "subCategory": "liste-satirlari",
   "version": "1.0.0",
+  "update": "2026-11-01",
   "icon": "groups",
+  "tags": [
+    "team",
+    "ekip",
+    "liste",
+    "rehber"
+  ],
   "veri": {
     "statik": true,
     "dinamik": false,
-    "kaynak": "desing/data"
-  }
+    "kaynak": "desing/data (render zamanı)"
+  },
+  "desing": {
+    "max": "1100px",
+    "eyebrow": {
+      "tr": "Ekip",
+      "en": "Team"
+    },
+    "title": {
+      "tr": "Başlık",
+      "en": "Heading"
+    },
+    "description": {
+      "tr": "Kısa açıklama metni.",
+      "en": "Short description text."
+    },
+    "epostaLabel": {
+      "tr": "E-posta",
+      "en": "Email"
+    },
+    "listeLabel": {
+      "tr": "Ekip üyeleri",
+      "en": "Team members"
+    }
+  },
+  "data": [
+    {
+      "ad": "Ad Soyad",
+      "unvan": {
+        "tr": "Unvan",
+        "en": "Role"
+      },
+      "bio": {
+        "tr": "Kısa tanıtım metni.",
+        "en": "Short bio text."
+      },
+      "img": "",
+      "eposta": "",
+      "url": "",
+      "urlLabel": {
+        "tr": "Profil",
+        "en": "Profile"
+      }
+    },
+    {
+      "ad": "Ad Soyad",
+      "unvan": {
+        "tr": "Unvan",
+        "en": "Role"
+      },
+      "bio": {
+        "tr": "Kısa tanıtım metni.",
+        "en": "Short bio text."
+      },
+      "img": "",
+      "eposta": "",
+      "url": "",
+      "urlLabel": {
+        "tr": "Profil",
+        "en": "Profile"
+      }
+    },
+    {
+      "ad": "Ad Soyad",
+      "unvan": {
+        "tr": "Unvan",
+        "en": "Role"
+      },
+      "bio": {
+        "tr": "Kısa tanıtım metni.",
+        "en": "Short bio text."
+      },
+      "img": "",
+      "eposta": "",
+      "url": "",
+      "urlLabel": {
+        "tr": "Profil",
+        "en": "Profile"
+      }
+    },
+    {
+      "ad": "Ad Soyad",
+      "unvan": {
+        "tr": "Unvan",
+        "en": "Role"
+      },
+      "bio": {
+        "tr": "Kısa tanıtım metni.",
+        "en": "Short bio text."
+      },
+      "img": "",
+      "eposta": "",
+      "url": "",
+      "urlLabel": {
+        "tr": "Profil",
+        "en": "Profile"
+      }
+    }
+  ]
 }

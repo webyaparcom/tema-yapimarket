@@ -1,66 +1,90 @@
 {
-  "name": "SSS Akordeon 1",
+  "name": {
+    "tr": "SSS 2 — İki sütun (yapışkan giriş + açılır liste)",
+    "en": "FAQ 2 — Two columns (sticky intro + disclosure list)"
+  },
+  "description": {
+    "tr": "İki sütunlu SSS: solda yapışkan başlık, açıklama ve iletişim düğmesi; sağda yerel <details>/<summary> açılır soru listesi (JS gerektirmez, birden çok soru aynı anda açık olabilir). İlk soru isteğe bağlı açık.",
+    "en": "Two-column FAQ: sticky heading, description and contact button on the left; native <details>/<summary> disclosure list on the right (no JS, several can be open). First question optionally open."
+  },
+  "path": "faq-2",
+  "category": "faq",
+  "subCategory": "iki-sutun-details",
+  "version": "1.0.0",
+  "update": "2026-11-01",
+  "icon": "quiz",
+  "tags": [
+    "faq",
+    "sss",
+    "details",
+    "iki-sutun"
+  ],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing/data (render zamanı)"
+  },
   "desing": {
-    "max": "900px",
-    "bgcolor": "#ffffff",
-    "cardbg": "#f8fafc",
-    "bordercolor": "#e2e8f0",
-    "titlecolor": "#1e293b",
-    "textcolor": "#475569",
-    "accent": "#DE6D26",
-    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
-    "badge": {
+    "max": "1200px",
+    "eyebrow": {
       "tr": "SSS",
       "en": "FAQ"
     },
     "title": {
-      "tr": "Sıkça Sorulan Sorular",
-      "en": "Frequently Asked Questions"
+      "tr": "Sık sorulan sorular",
+      "en": "Frequently asked questions"
     },
     "description": {
-      "tr": "Merak ettiğiniz soruların cevaplarını burada bulabilirsiniz.",
-      "en": "Find answers to the most common questions here."
-    }
+      "tr": "Kısa açıklama metni.",
+      "en": "Short description text."
+    },
+    "ctaText": {
+      "tr": "Sorunuzu iletin",
+      "en": "Ask a question"
+    },
+    "ctaUrl": "iletisim",
+    "ilkAcik": true
   },
   "data": [
     {
-      "question": {
-        "tr": "Hizmetleriniz hangi şehirleri kapsıyor?",
-        "en": "Which cities do your services cover?"
+      "soru": {
+        "tr": "Birinci soru metni?",
+        "en": "First question text?"
       },
-      "answer": {
-        "tr": "Tüm Türkiye genelinde hizmet veriyoruz; uzaktan projelerde dünya genelinde çalışabiliyoruz.",
-        "en": "We serve all of Turkey and work worldwide on remote projects."
+      "cevap": {
+        "tr": "Cevap metni. Kısa ve net bir açıklama.",
+        "en": "Answer text. A short and clear explanation."
       }
     },
     {
-      "question": {
-        "tr": "Proje teslim süresi ne kadar?",
-        "en": "How long does project delivery take?"
+      "soru": {
+        "tr": "İkinci soru metni?",
+        "en": "Second question text?"
       },
-      "answer": {
-        "tr": "Kapsama göre değişmekle birlikte standart projeler 2-4 hafta içinde teslim edilir.",
-        "en": "Depending on scope, standard projects are delivered within 2-4 weeks."
+      "cevap": {
+        "tr": "Cevap metni. Kısa ve net bir açıklama.",
+        "en": "Answer text. A short and clear explanation."
       }
     },
     {
-      "question": {
-        "tr": "Destek hizmeti sunuyor musunuz?",
-        "en": "Do you offer support services?"
+      "soru": {
+        "tr": "Üçüncü soru metni?",
+        "en": "Third question text?"
       },
-      "answer": {
-        "tr": "Evet, teslim sonrasında 7/24 teknik destek ve bakım paketlerimiz mevcuttur.",
-        "en": "Yes, we provide 24/7 technical support and maintenance packages after delivery."
+      "cevap": {
+        "tr": "Cevap metni. Kısa ve net bir açıklama.",
+        "en": "Answer text. A short and clear explanation."
+      }
+    },
+    {
+      "soru": {
+        "tr": "Dördüncü soru metni?",
+        "en": "Fourth question text?"
+      },
+      "cevap": {
+        "tr": "Cevap metni. Kısa ve net bir açıklama.",
+        "en": "Answer text. A short and clear explanation."
       }
     }
-  ],
-  "category": "faq",
-  "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
-  "version": "1.0.0",
-  "icon": "quiz",
-  "veri": {
-    "statik": true,
-    "dinamik": false,
-    "kaynak": "desing/data"
-  }
+  ]
 }
